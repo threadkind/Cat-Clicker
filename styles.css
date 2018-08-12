@@ -1,0 +1,28 @@
+* {
+	font-family: 'Catamaran', sans-serif;
+}
+
+#container {
+	width: 40%;
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+}
+
+#counter {
+	width: 20%;
+	text-align: center;
+	background: hotpink;
+	padding: 2%;
+	border-radius: 20%;
+	box-shadow: 2px 2px 2px grey;
+	margin: 0 auto;
+}
+
+#cat {
+	width: 100%;
+	margin: 1%;
+	box-shadow: 2px 2px 2px grey;
+}
