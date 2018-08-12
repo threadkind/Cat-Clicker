@@ -2,7 +2,17 @@
 	font-family: 'Catamaran', sans-serif;
 }
 
-#container {
+h1, h2, h3 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#allCats {
+	display: flex;
+	flex-wrap: wrap;
+}
+.container {
 	width: 40%;
 	margin: 0 auto;
 }
@@ -11,7 +21,7 @@ p {
 	text-align: center;
 }
 
-#counter {
+.counter {
 	width: 20%;
 	text-align: center;
 	background: hotpink;
@@ -21,7 +31,7 @@ p {
 	margin: 0 auto;
 }
 
-#cat {
+.cat {
 	width: 100%;
 	margin: 1%;
 	box-shadow: 2px 2px 2px grey;
